@@ -13,9 +13,9 @@
 
 [data-theme="dark"] {
     --primary-color: rgb(150, 65, 255);
-    --primary-variant: #6c63ff;
+    --primary-variant: #B8F2D4;
     --secondary-color: #03dac5;
-    --on-background: rgba(255, 255, 255, 0.9);
+    --on-background: #fff;
     --on-background-alt: rgba(255, 255, 255, 0.7);
     --background: #121212;
 }
@@ -71,7 +71,6 @@ nav{
     width: 100vw;
     z-index: 100;
     padding: 15px;
-    background: rgb(255 255 255 / 50%);
 }
 nav ul {
     display: flex;
@@ -161,7 +160,6 @@ button:hover:not(.outline) {
 .text-box {
     width: 40%;
     text-align: justify;
-    background: rgb(0 0 0 / 50%);
     color: var(--on-primary);
     border-radius: 10px;
     padding: 30px;
@@ -191,7 +189,8 @@ i:hover {
     margin-right: 5px;
     font-size: 1rem;
 }
-.fa-sun {
+.fa-sun,
+.fa-moon {
     font-size: 30px;
     margin-right: 5px;
 }
